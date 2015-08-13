@@ -1,0 +1,77 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Page1.aspx.cs" Inherits="Page1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+     <link href="css/style.css" rel="stylesheet" type="text/css" />
+     <style>
+    .tbl1
+    {
+    cellpadding="10"; cellspacing="10";
+    }
+    .tbl2
+    {
+    bg-color="ffff";
+    }
+    .tbl3
+    {
+        margin-left=60%;
+    }
+   </style>
+   </title>
+</head>
+<body style="background-color:#B1B84D" >
+    <form id="form1" runat="server">
+    <table class="tbl1">
+    <tr>
+        <td><img src="images1/rgpic2.png" width=1260px; height=300px /></td>
+    </tr>
+   
+    <table border="3" cellpadding="3" cellspacing="5" width=1250px; height=375px>
+      <tr>
+         <td align="center"><a href="Page2.aspx"><img src="images1/RoyalGardenia-07.jpg" width=330px; height=150px; />
+         <p> HIGHLAND NECTOR </p></a> 
+         <p> This roof-top restaurant brings alive the concept of 
+         </br>Japan’s vibrant after-hours culture, with authentic sushi, 
+         </br>sashimi, succulent robatayaki, crisp tempura and artful 
+         </br>bento meals, accompanied by fine Japanese sake, wines and 
+         </br>whiskies, culminating in a grand finale of delectable desserts. 
+         </br>This 81-seater Japanese, resto-bar celebrates the revival 
+         </br>of the spirit of the Tokya city with the culinary indulgence 
+         </br>of a style of dining that is a popular trend in 
+         </br>present-day Tokyo.</br> </p>
+         </td>
+         <td align="center"><a href="Page2.aspx"><img src="images1/Lotus-Pavillion-ITC-Royal-Gardenia.jpg" width=330px; height=150px />
+         <p> LOTUS PAVILION</p></a>
+         <p>Framed by the wind-cooled lobby of the hotel;
+         </br> the first sight to greet any visitor to the hotel;
+         </br> marking the central axis around which the hotel is built,
+         </br> the Lotus Pavilion is a celebration of all that 
+         </br>ITC Gardenia stands for. Open to the element and 
+         </br>surrounded by water on all sides, with a garden 
+         </br>sloping gently down its roof, Lotus Pavilion captures 
+         </br>the spirit of Tipu Sultan’s summer palace and provides you 
+         </br>with a delicious range of scumptuous pure 
+         </br>vegeteranian food.</p>
+         </td> 
+         <td align="center"><a href="Page2.aspx"><img src="images2/23-exterior-image-night.jpg" width=330px; height=150px />
+         <p> THE ROYAL AFGHAN</p></a>        
+         <p> Welcome to a taste of the highly acclaimed cuisine 
+         </br>of India’s North West Frontier. In an ambience reminiscent 
+         </br>of the rustic charm of dining in the warmth of tents under 
+         </br>a starry sky in the cold desert terrain of the 
+         </br>North West Frontier, with its rough-hewn trestle tables 
+         </br>and wooden stools, Royal Afghan brings you an award winning 
+         </br>menu of delicacies cooked in the traditional clay tandoor. 
+         </br>Experience the lavish spread of delicious kebabs – vegetarian and 
+         </br>non-vegetarian.</p>
+         </td>
+      </tr>
+       
+    </table>
+    </table>
+    </form>
+</body>
+</html>
