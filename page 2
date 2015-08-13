@@ -1,0 +1,51 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Page2.aspx.cs" Inherits="Page2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+     <link href="css/style.css" rel="stylesheet" type="text/css" />
+     <style>
+    .tbl1
+    {
+    cellpadding="10"; cellspacing="10";
+    }
+    .tbl2
+    {
+    bg-color="ffff";
+    }
+    .tbl3
+    {
+        margin-left=60%;
+    }
+     .txt:hover
+     {
+         border:2px solid #0C4F9E;
+     }
+   </style>
+   </title>
+</head>
+<body style="background-color:#271D33; >
+    <form id="form1" runat="server">
+    <table class="tbl1">
+    <tr>
+        <td><img src="images1/RoyalGardenia-07.jpg" width=1260px; height=300px /></td>
+    </tr>
+    <table border="3" cellpadding="3" cellspacing="5" width=1250px; height=375px>
+      <tr style="color:White">
+      <td> NAME </td>
+      <td>
+          <asp:TextBox ID="TextBox1" runat="server" BorderStyle="Inset" Font-Bold></asp:TextBox>
+      </td>
+      </tr>
+      <tr style="color:White">
+      <td> CONTACT NUMBER </td>
+      <td> <asp:TextBox ID="TextBox2" runat="server" BorderStyle="Inset" Font-Bold></asp:TextBox>
+      </td>
+      </tr>
+      </table>
+      </table>
+    </form>
+</body>
+</html>
